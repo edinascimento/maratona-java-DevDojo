@@ -4,12 +4,12 @@ public class Pessoa {
 
     private String name;
     private String endereco;
-    private String teleefone;
+    private String telefone;
 
     public Pessoa(String name, String endereco, String telefone) {
         this.name = name;
         this.endereco = endereco;
-        this.teleefone = telefone;
+        this.telefone = telefone;
     }
 
     public String getName() {
@@ -21,7 +21,7 @@ public class Pessoa {
     }
 
     public String getTelefone() {
-        return this.teleefone;
+        return this.telefone;
     }
 
     public String toString() {
@@ -29,5 +29,4 @@ public class Pessoa {
                 this.getEndereco() + " e telefone " +
                 this.getTelefone() + " não possui pendência";
     }
-
 }
